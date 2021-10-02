@@ -1,3 +1,4 @@
+#constants.py
 SCREENWIDTH = 288
 SCREENHEIGHT = 512
 
