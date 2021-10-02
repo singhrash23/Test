@@ -4,7 +4,7 @@ import pygame
 from itertools import cycle
 import numpy as np
 import random
-
+import math
 from neuralnetwork import *
 from genetics import *
 
@@ -12,9 +12,11 @@ currentPool = []
 fitness = []
 generation = 0
 
+
+sandip=130303
+#defining 
 nextPipeX = -1
 nextPipeHoleY = -1
-
 
 def predictAction(height, dist, pipe_height, model_num):
     global currentPool
